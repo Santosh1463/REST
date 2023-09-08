@@ -6,9 +6,9 @@ app = Flask(__name__)
 def bfhl():
     if request.method == 'POST':
         data = request.json
-        user_id = '{}_{}'.format(data['name'], data['dob'])
-        email = data['email']
-        roll_number = data['roll_number']
+        user_id = "Santosh_14062003"
+        email = "sv7618@srmist.edu.in"
+        roll_number = "RA2011003020208"
         numbers = data['numbers']
         alphabets = data['alphabets']
         highest_alphabet = max(alphabets, key=lambda x: x.upper())
